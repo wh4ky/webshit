@@ -18,7 +18,7 @@ h1 {
   color:  rgb(220,220,220);
 }
 
-/* TOPBAR*/
+/* TOPBAR */
 .nav {
   overflow: hidden;
   background-color: rgb(16,12,8);
@@ -39,12 +39,29 @@ h1 {
   color: rgb(16,12,8);
 }
 
+/* DROPDOWNS */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: rgb(220,220,220);
+  min-width: 100px;
+  padding: 5px 5px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* BUTTONS */
 button.theme { /* default theme button */
   float: left;
   padding: 10px;
-  width: 50px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   background-color:  rgb(220,220,220);
   border: none;
 }
@@ -54,13 +71,9 @@ button.theme > img {
   object-fit: contain;
 }
 
-button.theme:hover {
-  background-color:  rgb(220,220,220);
-  color: rgb(16,12,8);
-}
-
 /* PAGE */
 .page {
+    max-width: 750px;
     margin: 20px;
     border-radius: 10px;
     padding: 10px;
