@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(65, 65, 65);
+    /* background-color: rgb(65, 65, 65); */
 }
 
 /* PARAGRAPHS AND HEADERS */
@@ -21,7 +21,6 @@ p, h1 {
 .header {
     text-align: center;
     background-color: black;
-    display: inline;
 }
 .nav {
     overflow: hidden;
