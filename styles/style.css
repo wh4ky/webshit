@@ -22,7 +22,7 @@ p, h1 {
 .header {
     padding: 50px;
     text-align: center;
-    background-image:linear-gradient(white, black)
+    background-color: black;
 }
 .nav {
     overflow: hidden;
@@ -62,10 +62,6 @@ button.theme { /* default theme button */
 }
 
 /* LIGHTMODE */
-button.theme.light { /* light mode theme button */
-    background-color: rgb(43, 43, 43);
-    color: white;
-}
 body.light {
     background-color: rgb(190, 190, 190);
 }
