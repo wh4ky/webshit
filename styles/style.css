@@ -50,14 +50,14 @@ button {
 }
 
 button.theme { /* default theme button */
+    text-align: center;
     font-size: 15px;
-    text-shadow: 1px 1px black;
-    color: gray;
-    width: 50px;
-    height: 50px;
+    text-shadow: 1px 1px white;
+    color: black;
+    width: 80px;
+    height: 20px;
     object-fit: cover;
-    border-radius: 50%;
-    background:url("../images/theme_switch.png");
+    background:url("../images/theme_switch.jpg");
     float: right;
 }
 
@@ -70,4 +70,11 @@ p.light, h1.light, p.header.light, h1.header.light {
 }
 .nav.light {
     background-color: white;
+}
+.header.light {
+    background-image: linear-gradient(black, white);
+}
+button.theme.light {
+    text-shadow: 1px 1px black;
+    color: white;
 }
