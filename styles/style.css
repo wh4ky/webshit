@@ -29,11 +29,14 @@ p, h1 {
     background-color: black;
 }
 .nav a {
+    color: white;
+    display: inline;
     float: left;
     padding: 10px;
-    color: gray;
     display: block;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 .nav a:hover {
     background-color: #ddd;
@@ -53,11 +56,11 @@ button.theme { /* default theme button */
     text-align: center;
     font-size: 15px;
     text-shadow: 1px 1px white;
-    color: black;
+    color: white;
     width: 80px;
-    height: 20px;
+    height: 40px;
     object-fit: cover;
-    background:url("../images/theme_switch.jpg");
+    background-color: black;
     float: right;
 }
 
@@ -76,5 +79,6 @@ p.light, h1.light, p.header.light, h1.header.light {
 }
 button.theme.light {
     text-shadow: 1px 1px black;
-    color: white;
+    color: black;
+    background-color: white;
 }
