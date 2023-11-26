@@ -13,7 +13,7 @@
       : everything.forEach((v) => v.classList.remove("light"));
 
     lightMode
-      ? (image.src = "/images/theme_switch_light.png")
-      : (image.src = "/images/theme_switch_dark.png");
+      ? (image.src = "/images/theme_switch_dark.png")
+      : (image.src = "/images/theme_switch_light.png");
   });
 })();
