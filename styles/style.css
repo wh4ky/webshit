@@ -16,7 +16,6 @@ h1 {
   margin: 0px;
   padding: 0px;
   color: white;
-  display: inline;
 }
 
 /* TOPBAR*/
@@ -41,11 +40,10 @@ h1 {
 }
 
 /* BUTTONS */
-button.theme {
-  /* default theme button */
+button.theme { /* default theme button */
   float: left;
   padding: 10px;
-  width: 120px;
+  width: 50px;
   height: 40px;
   background-color: black;
   border: none;
@@ -61,6 +59,15 @@ button.theme:hover {
   color: black;
 }
 
+/* PAGE 1 */
+.page1 {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
 /* LIGHTMODE */
 p.light,
 h1.light,
@@ -72,12 +79,12 @@ h1.header.light {
   background-color: white;
 }
 button.theme.light {
-  object-fit: contain;
-  width: 30px;
-  height: 25px;
-  background-image: url("../images/theme_switch_light.png");
   background-color: white;
 }
 .nav a.light {
   color: black;
+}
+.page1.light {
+    background-color: white;
+    color: black;
 }
