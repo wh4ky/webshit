@@ -22,7 +22,7 @@ p, h1 {
 .header {
     padding: 50px;
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(white, black);
 }
 .nav {
     overflow: hidden;
