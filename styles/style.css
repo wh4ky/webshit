@@ -82,3 +82,6 @@ button.theme.light {
     color: black;
     background-color: white;
 }
+.nav a.light {
+    color: black;
+}
