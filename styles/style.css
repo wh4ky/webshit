@@ -45,13 +45,17 @@ button.theme {
   /* default theme button */
   float: left;
   padding: 10px;
-  background-image: url("../images/theme_switch_dark.png");
   width: 120px;
   height: 40px;
-  object-fit: contain;
   background-color: black;
   border: none;
 }
+button.theme > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 button.theme:hover {
   background-color: #ddd;
   color: black;
