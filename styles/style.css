@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(62, 32, 63);
 }
 
 /* PARAGRAPHS AND HEADERS */
@@ -19,14 +19,10 @@ p, h1 {
 }
 
 /* TOPBAR*/
-.header {
-    padding: 50px;
-    text-align: center;
-    background-image: linear-gradient(white, black);
-}
 .nav {
     overflow: hidden;
     background-color: black;
+    border-radius: 10px;
 }
 .nav a {
     color: white;
@@ -44,42 +40,33 @@ p, h1 {
 }
 
 /* BUTTONS */
-button {
-    border-color: darkgray;
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
 button.theme { /* default theme button */
-    text-align: center;
-    font-size: 15px;
-    text-shadow: 1px 1px white;
-    color: white;
-    width: 80px;
+    float: left;
+    padding: 10px;
+    background-image: url("../images/theme_switch_dark.png");
+    width: 120px;
     height: 40px;
-    object-fit: cover;
+    object-fit: contain;
     background-color: black;
-    float: right;
+    border: none;
+}
+button.theme:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 /* LIGHTMODE */
-body.light {
-    background-color: rgb(190, 190, 190);
-}
 p.light, h1.light, p.header.light, h1.header.light {
     color: black;
 }
 .nav.light {
     background-color: white;
 }
-.header.light {
-    background-image: linear-gradient(black, white);
-}
 button.theme.light {
-    text-shadow: 1px 1px black;
-    color: black;
+    object-fit: contain;
+    width: 30px;
+    height: 25px;
+    background-image: url("../images/theme_switch_light.png");
     background-color: white;
 }
 .nav a.light {
